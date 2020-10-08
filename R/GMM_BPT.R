@@ -1,5 +1,5 @@
 require(mclust);
-AGN <- read.csv("https://raw.githubusercontent.com/COINtoolbox/GMM_Catalogue/master/Catalogue/GMM_catalogue.csv",header=T)
+AGN <- read.csv("https://raw.githubusercontent.com/COINtoolbox/GMM_Catalogue/master/Catalogue/galaxies.csv",header=T)
 
 BPT <- data.frame(x = AGN$xx_BPT_WHAN, y = AGN$yy_BPT )
 test_index <- sample(seq_len(nrow(BPT)),replace=F, size = 10000)
