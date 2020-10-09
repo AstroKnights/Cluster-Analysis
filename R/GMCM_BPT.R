@@ -1,9 +1,9 @@
 # AstroKnights
 # by Rafael S. de Souza
 
-# Gaussian Mixture Model
+# Gaussian Mixture Copula
 # importing useful libraries
-require(mclust);require(ggplot2)
+require(GMCM);require(ggplot2)
 require(dplyr)
 
 # reading the catalogue
